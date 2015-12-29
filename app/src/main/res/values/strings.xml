@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gatv</string>
+    <string name="action_settings">Settings</string>
+    <string name="Titulo">TFG - ANDROID TV</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="Vid_button">Videos</string>
+    <string name="Img_button">Imagenes</string>
+    <string name="Aud_button">Mensajes de voz</string>
+    <string name="menu_title">MENU</string>
+    <string name="Men_button">Mensajes</string>
+    <string name="Alarma">Alarma</string>
+    <string name="Juegos">Juegos</string>
+</resources>
