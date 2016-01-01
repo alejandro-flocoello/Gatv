@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:showIn="@layout/activity_main"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
 
     <TextView
@@ -14,17 +14,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/Titulo"
         android:id="@+id/textView"
-        android:layout_gravity="center_horizontal|top"
         android:layout_marginTop="15dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Alarma"
-        android:id="@+id/button"
-        android:layout_marginTop="25dp"
-        style="@style/orange"
-        android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
@@ -33,7 +23,16 @@
         android:id="@+id/button2"
         android:layout_marginTop="15dp"
         style="@style/orange"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Alarma"
+        android:id="@+id/button"
+        android:layout_marginTop="25dp"
+        style="@style/orange"
+        android:layout_gravity="center_vertical" />
 
     <Button
         android:layout_width="wrap_content"
@@ -42,7 +41,7 @@
         android:id="@+id/button4"
         android:layout_marginTop="15dp"
         style="@style/orange"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_vertical" />
 
     <Button
         android:layout_width="wrap_content"
@@ -52,6 +51,6 @@
         android:layout_marginTop="15dp"
         style="@style/orange"
         android:onClick="muestraVideos"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_vertical" />
 
 </LinearLayout>
