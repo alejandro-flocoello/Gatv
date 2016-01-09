@@ -5,7 +5,7 @@
     <string name="title_activity_display_message">DisplayMessageActivity</string>
     <string name="Vid_button">Videos</string>
     <string name="Img_button">Imagenes</string>
-    <string name="Aud_button">Mensajes de voz</string>
+    <string name="Aud_button">Audio</string>
     <string name="menu_title">MENU</string>
     <string name="Men_button">Mensajes</string>
     <string name="Alarma">Alarma</string>
